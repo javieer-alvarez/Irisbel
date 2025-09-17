@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    //Tipos de variable
+    int x; //Declarar
+    x = 10; //Inicializar
+    int y = 90; //Declarando e inicializando
+    float pi = 3.14;
+    char letra = 'H';
+    char saludos[] = "Esto es una oración";
+    bool masculino;
+    masculino = true;
+    masculino = false;
+    double piLargo = 3.1415;
+    
+    //Entrada y salida
+    
+    cout << "¿Cuál es tu edad?" << endl;
+    
+    int edad;
+    
+    cin >> edad;
+    
+    cout << "Mi nombre es Javier y tengo " << edad << " años"<< endl;
+    
+    
+    
+
+    return 0;
+}
