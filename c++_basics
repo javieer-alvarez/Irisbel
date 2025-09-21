@@ -93,6 +93,27 @@ int main() {
         default:
         cout << "No se introdujo ningun valor aceptado por el switch" << endl;
     }
+
+
+    //Bucles
+    
+    //FOR
+    for(int i = 0; i<= 100 ; i++){
+        cout << i << endl;
+    }
+    
+    //While
+    
+    while(){
+        
+    }
+    
+    //Do-WHile
+    do{
+        
+    }while();
+    
+    
     
 
     return 0;
