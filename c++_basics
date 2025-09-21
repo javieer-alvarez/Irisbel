@@ -16,17 +16,83 @@ int main() {
     masculino = false;
     double piLargo = 3.1415;
     
+    //Tipos de operaciones 
+    int suma = x+y;
+    int resta = suma - 16;
+    int mult = suma * resta;
+    float divi = resta /mult;
+    int modulo = 7%3;
+    
+    /*
+    Escribir
+    comentario 
+    multilinea
+    */
+    
+    /*
+    Operadores Lógicos / Comparadores:
+    == : es igual a
+    =! : es distinto a
+    < : es menor a
+    > : es mayor a 
+    <= : es menor o igual a
+    >= : es mayor o igual a 
+    && : tal y tal
+    || : tal o tal
+    */
+    
     //Entrada y salida
+    int edad;
     
     cout << "¿Cuál es tu edad?" << endl;
     
-    int edad;
-    
     cin >> edad;
     
-    cout << "Mi nombre es Javier y tengo " << edad << " años"<< endl;
+    //Controles de flujo
     
+    //IF - ELSE IF - ELSE
     
+    bool condicion = edad < 18 && edad >= 0;
+    
+    cout << condicion << endl;
+    
+    if(edad < 18 && edad >= 0){
+        cout << "La persona es menor de edad " << endl;
+    }
+    else if(edad >= 18 && edad < 100){
+        cout << "La persona es mayor de edad " << endl;
+    }
+    else if(edad >= 100){
+        cout << "La persona ya está mayor" << endl;
+    }
+    else{
+        cout << "Dato inválido" << endl;
+    }
+    
+    //Switch
+    int num;
+    cout << "Introduzca cualquier número: " << endl;
+    cin >> num;
+    
+    switch(num){
+        case 10: 
+        cout << "El valor introducido es 10"<< endl;
+        break;
+        case 15: 
+        cout << "El valor introducido es 15"<< endl;
+        break;
+        case 9: 
+        cout << "El valor introducido es 9"<< endl;
+        break;
+        case 44: 
+        cout << "El valor introducido es 44"<< endl;
+        break;
+        case 0: 
+        cout << "El valor introducido es 0"<< endl;
+        break;
+        default:
+        cout << "No se introdujo ningun valor aceptado por el switch" << endl;
+    }
     
 
     return 0;
