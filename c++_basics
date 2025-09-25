@@ -10,7 +10,7 @@ int main() {
     int y = 90; //Declarando e inicializando
     float pi = 3.14;
     char letra = 'H';
-    char saludos[] = "Esto es una oración";
+    char saludos[] = "Esto es una oración"; //String
     bool masculino;
     masculino = true;
     masculino = false;
@@ -104,14 +104,24 @@ int main() {
     
     //While
     
-    while(){
-        
+
+    int edad = 0;
+
+    while (edad < 18) {
+        cout << "Aún es menor de edad"<< " porque tiene "<< edad<< " años" << endl;
+        edad++;
     }
+
+    cout << "Ya es mayor de edad" << endl;
+
+    
     
     //Do-WHile
-    do{
-        
-    }while();
+    bool intruso = false;
+
+    do {
+        cout << "Acceso concebido" << endl;
+    }while(intruso == false);
     
     
     
